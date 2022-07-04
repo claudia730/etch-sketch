@@ -1,0 +1,21 @@
+.cell{
+    aspect-ratio: 1/1;
+    border: 1px dotted black;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
+}
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
